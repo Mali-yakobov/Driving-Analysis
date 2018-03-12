@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    tools:context="com.example.maliy.cars.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/buttonLimit"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/speed_limit"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRec"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="105dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/car"
+        android:layout_marginRight="116dp"
+        android:layout_marginLeft="118dp" android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/buttonRec"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="65dp"
+
+        android:layout_marginTop="446dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="rec_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <!--<TextView
+        android:id="@+id/txtCurrentSpeed"
+        />-->
+
+    <Button
+        android:id="@+id/speedView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="419dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/s5"
+        android:gravity="center"
+        android:text="0km/h"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="284dp" />
+
+
+</android.support.constraint.ConstraintLayout>

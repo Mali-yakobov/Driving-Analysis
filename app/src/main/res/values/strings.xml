@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_data_record">DataRecord</string>
+    <string name="_0km_h">0Km/h</string>
+    <string name="rec_activity">Rec Activity</string>
+    <string name="app_name">drive</string>
+</resources>
